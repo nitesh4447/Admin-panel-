@@ -1,0 +1,558 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  transition: all 0.8s;
+}
+
+.all-main {
+  overflow-x: hidden;
+}
+
+.navigation {
+  height: 65px;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.368);
+  background-color:rgb(2, 2, 69);
+  position: fixed;
+  z-index: 99;
+}
+.navigation .main-logo img {
+  width: 15%;
+}
+.navigation .main-logo h3 {
+  padding-left: 5px;
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 26px;
+  color: #6e7891;
+}
+
+.input-tyeps {
+  position: relative;
+}
+.input-tyeps input {
+  border-radius: 20px;
+  padding-left: 30px;
+}
+.input-tyeps .bi-search {
+  position: absolute;
+  top: 21%;
+  left: 4.5%;
+  font-size: 14px;
+  color: gray;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #484f5f;
+}
+.icons span {
+  background-color:rgb(2, 2, 69);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.icons span .bi-brightness-high {
+  font-size: 18px;
+  font-weight: bold;
+  color: orangered;
+}
+.icons span:hover {
+  background-color: orangered;
+}
+.icons span:hover .bi-brightness-high {
+  color: rgb(255, 231, 222);
+}
+.icons .bi-bell {
+  font-size: 22px;
+  margin: 0px 10px;
+  cursor: pointer;
+  position: relative;
+}
+.icons .bi-grid-3x3-gap-fill {
+  font-size: 22px;
+  margin: 0px 10px;
+  cursor: pointer;
+  position: relative;
+}
+.icons img {
+  border-radius: 50%;
+  width: 50%;
+  margin: 0px 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.mosi {
+  width: 280px;
+  height: 300px;
+  border: 1px solid rgba(128, 128, 128, 0.368);
+  border-radius: 5px;
+  padding: 30px 20px 30px 30px;
+  position: absolute;
+  right: 6%;
+  overflow-y: scroll;
+  margin-top: 10px;
+  background-color:rgb(2, 2, 69);
+  z-index: 1;
+  margin-top: 70px;
+}
+.mosi .vice-mosi .row div img {
+  width: 60%;
+  cursor: pointer;
+}
+.mosi .vice-mosi .row div p {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.mosi2 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid rgba(128, 128, 128, 0.368);
+  position: absolute;
+  right: 10%;
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color:rgb(2, 2, 69);
+  color: white;
+  margin-top: 70px;
+}
+.mosi2 .navi {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.368);
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.mosi2 .navi a {
+  font-size: 13px;
+  text-decoration: none;
+}
+.mosi2 .navi a:hover {
+  text-decoration: underline;
+}
+.mosi2 .intro {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.368);
+  padding: 10px 0px;
+}
+.mosi2 .intro .row {
+  padding: 10px 20px;
+}
+.mosi2 .intro .row .intro-img img {
+  border-radius: 50%;
+}
+.mosi2 .intro .row .intro-consept p {
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+.mosi2 .intro .row .intro-consept div {
+  font-size: 13px;
+}
+.mosi2 .intro .row .intro-dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mosi2 .intro .row .intro-dot .bi-three-dots {
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: all 0.8s;
+}
+.mosi2 .intro .row .intro-dot .bi-three-dots:hover {
+  border: 1px solid rgba(128, 128, 128, 0.744);
+}
+.mosi2 .intro2 {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.368);
+  padding: 10px 0px;
+  background-color:rgb(2, 2, 69);
+  color: white;
+}
+.mosi2 .intro2 .row {
+  padding: 10px 20px;
+}
+.mosi2 .intro2 .row .intro-img img {
+  border-radius: 50%;
+}
+.mosi2 .intro2 .row .intro-consept p {
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+.mosi2 .intro2 .row .intro-consept div {
+  font-size: 13px;
+}
+.mosi2 .intro2 .row .intro-dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mosi2 .intro2 .row .intro-dot .bi-three-dots {
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: all 0.8s;
+}
+.mosi2 .intro2 .row .intro-dot .bi-three-dots:hover {
+  border: 1px solid rgba(128, 128, 128, 0.744);
+}
+
+.mosi3 {
+  width: 300px;
+  height: 460px;
+  border: 1px solid rgba(128, 128, 128, 0.368);
+  position: absolute;
+  right: 3%;
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color:rgb(2, 2, 69);
+  color: white;
+  padding: 0px 0px 0px 0px;
+  margin-top: 70px;
+}
+.mosi3 .woman-intro .woman-intro-img {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+.mosi3 .woman-intro .woman-intro-img img {
+  border-radius: 50%;
+  width: 25%;
+}
+.mosi3 .in {
+  padding: 0px 20px;
+  margin-left: 5px;
+}
+.mosi3 .in input {
+  height: 30px;
+  padding-bottom: 10px;
+}
+.mosi3 .in input::-moz-placeholder {
+  font-size: 13px;
+  display: flex;
+}
+.mosi3 .in input::placeholder {
+  font-size: 13px;
+  display: flex;
+}
+.mosi3 .main-woman {
+  margin-top: 10px;
+  height: 140px;
+  overflow-y: scroll;
+  margin-left: 20px;
+  padding: 0%;
+}
+.mosi3 .main-woman .woman-pro {
+  padding: 5px 20px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.mosi3 .main-woman .woman-pro:hover {
+  background-color: rgba(229, 229, 229, 0.744);
+}
+.mosi3 .main-woman .bi-person {
+  font-size: 15px;
+}
+.mosi3 .main-woman p {
+  font-size: 13px;
+  margin-left: 10px;
+}
+.mosi3 .woman-add-account {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px 15px 30px;
+  border-top: 1px solid rgba(128, 128, 128, 0.744);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.744);
+  margin-left: 20px;
+}
+.mosi3 .woman-add-account .bi-person-add {
+  font-size: 25px;
+}
+.mosi3 .woman-add-account h6 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.mosi3 .woman-sing-button {
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.744);
+  margin-left: 30px;
+  padding: 7px 0px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.mosi3 .woman-sing-button .bi-box-arrow-right {
+  font-size: 20px;
+  padding-right: 10px;
+}
+.mosi3 .woman-sing-button:hover {
+  background-color: rgba(222, 222, 222, 0.744);
+  border: none;
+}
+.mosi3 .woman-profile-footer {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+
+}
+.main-wrapper .navigation-bar2 {
+  width: 18%;
+  height: 95vh;
+ 
+  padding: 0px 15px;
+  position: fixed;
+  border-right: 1px solid rgba(222, 222, 222, 0.744);
+  overflow: scroll;
+}
+.main-wrapper header .accordion-header #arrow.active,
+.main-wrapper header .accordion-header #arro.active,
+.main-wrapper header .accordion-header #arr.active,
+.main-wrapper header .accordion-header #ar.active,
+.main-wrapper header .accordion-header #ar-five.active,
+.main-wrapper header .accordion-header #ar-six.active,
+.main-wrapper header .accordion-header #ar-seven.active,
+.main-wrapper header .accordion-header #ar-eight.active,
+.main-wrapper header .accordion-header #ar-nine.active,
+.main-wrapper header .accordion-header #ar-ten.active,
+.main-wrapper header .accordion-header #ar-eleven.active,
+.main-wrapper header .accordion-header #ar-twelve.active,
+.main-wrapper header .accordion-header #ar-thteen.active,
+.main-wrapper header .accordion-header #ar-vicethriteen.active,
+.main-wrapper header .accordion-header #ar-vice2thriteen.active,
+.main-wrapper header .accordion-header #ar-vice3thriteen.active,
+.main-wrapper header .accordion-header #ar-forteen.active,
+.main-wrapper header .accordion-header #ar-fifteen.active,
+.main-wrapper header .accordion-header #ar-vicefifteen.active,
+.main-wrapper header .accordion-header #ar-vice2fifteen.active,
+.main-wrapper header .accordion-header #ar-sixteen.active,
+.main-wrapper header .accordion-header #ar-seventeen.active,
+.main-wrapper header .accordion-header #ar-eighteen.active,
+.main-wrapper header .accordion-header #ar-nineteen.active,
+.main-wrapper header .accordion-header #ar-vicenineteen.active,
+.main-wrapper header .accordion-header #ar-vice2nineteen.active,
+.main-wrapper header .accordion-header #ar-vice3nineteen.active,
+.main-wrapper header .accordion-header #ar-twenty.active,
+.main-wrapper header .accordion-header #ar-twenty-one.active,
+.main-wrapper header .accordion-header #ar-vicetwenty-one.active,
+.main-wrapper header .accordion-header #ar-vice2twenty-one.active,
+.main-wrapper header .accordion-header #ar-vice21twenty-one.active,
+.main-wrapper header .accordion-header #ar-vice3twenty-one.active,
+.main-wrapper header .accordion-header #ar-vice31twenty-one.active,
+.main-wrapper header .accordion-header #ar-vice310twenty-one.active,
+.main-wrapper header .accordion-header #ar-twenty-two.active {
+  transform: rotate(90deg);
+  transition: all 0.3s;
+}
+.main-wrapper .accordion-item {
+  cursor: pointer;
+  
+}
+.main-wrapper .accordion-header {
+  border-radius: 10px;
+  padding: 5px 0px 5px 20px;
+  cursor: pointer;
+  
+}
+.main-wrapper .accordion-header .fa-caret-right {
+  font-size: 12px;
+  margin-top: 2px;
+  
+}
+.main-wrapper .accordion-header:hover {
+  background-color: rgba(190, 189, 189, 0.744);
+}
+.main-wrapper .main-containe {
+  width: 82.8%;
+  padding: 10px 30px;
+  /* background-color:rgb(2, 2, 69); 
+   color: white; */
+} 
+.main-wrapper .main-containe h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  color: white;
+  font-style: normal;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: grey #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+.Chart
+{
+   
+    width:100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    /* background-color:rgb(2, 2, 69); */
+    
+}
+.badge1
+{
+
+    border:1px solid #ffcc85;
+
+}
+.bullet-item {
+    height: 0.5rem;
+    width: 1rem;
+    border-radius: 2px;
+    
+}
+.flex-1 {
+    flex: 1;
+}
+.myChart12
+{
+    width: 100%;  
+}
+.search-box
+{
+        position: relative;
+        font-size: .8rem;
+        width: 20rem;
+   
+}
+.search-box .search-input {
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    border-radius: 0.375rem;
+    box-shadow: none;
+}
+.bi-search
+{
+    position: absolute;
+    color: #8a94ad;
+    top: 20%;
+    left: 1rem;
+}
+.checked {
+    color: orange;
+  }
+  .Chart
+{
+   
+    width:100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+   
+    color: white;
+}
+.navbar
+{
+  z-index: 9999;
+}
+.main-wrapper .navigation-bar2 {
+  width: 18%;
+  height: 95vh;
+  padding: 0px 15px;
+  position: fixed;
+  border-right: 1px solid rgba(222, 222, 222, 0.744);
+  overflow: scroll;
+}
+ header .accordion-header #arrow.active,
+ header .accordion-header #arro.active,
+ header .accordion-header #arr.active,
+ header .accordion-header #ar.active,
+ header .accordion-header #ar-five.active,
+ header .accordion-header #ar-six.active,
+ header .accordion-header #ar-seven.active,
+ header .accordion-header #ar-eight.active,
+ header .accordion-header #ar-nine.active,
+ header .accordion-header #ar-ten.active,
+ header .accordion-header #ar-eleven.active,
+ header .accordion-header #ar-twelve.active,
+ header .accordion-header #ar-thteen.active,
+ header .accordion-header #ar-vicethriteen.active,
+ header .accordion-header #ar-vice2thriteen.active,
+ header .accordion-header #ar-vice3thriteen.active,
+ header .accordion-header #ar-forteen.active,
+ header .accordion-header #ar-fifteen.active,
+ header .accordion-header #ar-vicefifteen.active,
+ header .accordion-header #ar-vice2fifteen.active,
+ header .accordion-header #ar-sixteen.active,
+ header .accordion-header #ar-seventeen.active,
+ header .accordion-header #ar-eighteen.active,
+ header .accordion-header #ar-nineteen.active,
+ header .accordion-header #ar-vicenineteen.active,
+ header .accordion-header #ar-vice2nineteen.active,
+ header .accordion-header #ar-vice3nineteen.active,
+ header .accordion-header #ar-twenty.active,
+ header .accordion-header #ar-twenty-one.active,
+ header .accordion-header #ar-vicetwenty-one.active,
+ header .accordion-header #ar-vice2twenty-one.active,
+ header .accordion-header #ar-vice21twenty-one.active,
+ header .accordion-header #ar-vice3twenty-one.active,
+ header .accordion-header #ar-vice31twenty-one.active,
+ header .accordion-header #ar-vice310twenty-one.active,
+ header .accordion-header #ar-twenty-two.active {
+  transform: rotate(90deg);
+  transition: all 0.3s;
+}
+ .accordion-item {
+  cursor: pointer;
+  color: white;
+}
+ .accordion-header {
+  border-radius: 10px;
+  padding: 5px 0px 5px 20px;
+  cursor: pointer;
+}
+ .accordion-header .fa-caret-right {
+  font-size: 12px;
+  margin-top: 2px;
+}
+ .accordion-header:hover {
+  background-color: rgba(222, 222, 222, 0.744);
+}
+ .main-containe {
+  width: 82.8%;
+  padding: 10px 30px;
+
+}
+ .main-containe h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+  color: white;
+}
